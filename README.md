@@ -18,3 +18,10 @@ This script automates Route 53 DNS management by creating a hosted zone (if not 
 route53_create-private-domain-and-dns.sh
 
 This script automates Route 53 private DNS setup by creating a private hosted zone linked to a VPC, retrieving an EC2 instance’s private IP, and mapping it to a subdomain.
+
+## 03 - Auto Scaling Group - Create Private Domain and Private DNS record for EC2
+
+asg.sh
+
+This script automates the creation of an Auto Scaling Group in AWS, including a Network Load Balancer, target group, listener, and scaling policy.  
+It ensures required VPC, subnets, and security groups exist before provisioning, enabling a reliable and scalable setup.
